@@ -1,14 +1,22 @@
 {
-  "name": "Starter-master",
+  "name": "workflow_template_repository",
   "version": "1.0.0",
-  "description": "workflow",
-  "main": "index.js",
+  "description": "workflow_template_repository",
+  "main": "index.html",
   "scripts": {
     "start": "gulp"
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcervantes71/Workflow_Template_Repository.git"
+  },
   "author": "Martin Cervantes",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcervantes71/Workflow_Template_Repository/issues"
+  },
+  "homepage": "https://github.com/mcervantes71/Workflow_Template_Repository#readme",
   "dependencies": {
     "bootstrap": "^5.0.2",
     "font-awesome": "^4.7.0",
@@ -21,9 +29,10 @@
     "eslint": "^7.30.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.23.4",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-sass": "^5.0.0",
     "jest": "^27.0.6",
+    "jest-cli": "^27.0.6",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
